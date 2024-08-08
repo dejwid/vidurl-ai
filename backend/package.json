@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "module": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@gptscript-ai/gptscript": "^0.9.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "uniqid": "^5.4.0",
+    "url": "^0.11.4"
+  }
+}
